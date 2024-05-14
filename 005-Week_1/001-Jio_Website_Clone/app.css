@@ -1,0 +1,79 @@
+.guidance {
+    background-color: #0F3CC9;
+    height: 337px;
+    align-items: right;
+}
+
+.guidance h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 80px;
+}
+
+.true-5g{
+    height: 580px;
+    width: 580px;
+    background-image: url(./src/true-5g-desktop.webp);
+    background-repeat: no-repeat;
+    float: left;
+}
+.true-5g h1 {
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+}
+.air-fiber {
+    height: 580px;
+    width: 580px;
+    background-image: url(./src/airfiber-desktop.webp);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.air-fiber h1{
+    color: white;
+    font-family: Arial;
+    font-size: 50px;
+}
+.air-fiber button{
+    background-color: #0C5273;
+}
+.italics-button
+{
+    font-style: italic;
+}
+.about-jio h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 30;
+}
+
+.jio-blue-button {
+    background-color: #0F3CC9;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+}
+.jio-white-button {
+    background-color: white;
+    color: #5A6EAD;
+    border-radius: 25px;
+    font-weight: bold;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border:  grey 1px solid;
+}
+
+.jio-business
+{
+    height: 480px;
+    background-image: url(./);
+}
