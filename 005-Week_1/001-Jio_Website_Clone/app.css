@@ -1,3 +1,18 @@
+
+#carousel-images {
+    width: 100%;
+}
+.carousel-item img
+{
+    height: 790px;
+}
+/* .carousel-1 {
+    background-image: url(./src/ranbir-airfiber-desktop-22-04-2024.webp);
+    height: 790px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 790px;
+} */
 .guidance {
     background-color: #0F3CC9;
     height: 337px;
@@ -10,18 +25,20 @@
     font-size: 80px;
 }
 
-.true-5g{
+.true-5g {
     height: 580px;
     width: 580px;
     background-image: url(./src/true-5g-desktop.webp);
     background-repeat: no-repeat;
     float: left;
 }
+
 .true-5g h1 {
     color: white;
     font-family: Arial;
     font-size: 50px;
 }
+
 .air-fiber {
     height: 580px;
     width: 580px;
@@ -30,18 +47,36 @@
     float: left;
 }
 
-.air-fiber h1{
+.air-fiber h1 {
     color: white;
     font-family: Arial;
     font-size: 50px;
 }
-.air-fiber button{
+
+.air-fiber button {
     background-color: #0C5273;
 }
-.italics-button
-{
+
+.jio-market {
+    height: 480px;
+    width:380px;
+    background-image: url(./src/jiomart-l.webp);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.jio-savan {
+    height: 480px;
+    width: 380px;
+    background-image: url(./src/home-jiosaavan-desktop-img.webp);
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.italics-text {
     font-style: italic;
 }
+
 .about-jio h2 {
     color: black;
     font-weight: bold;
@@ -61,6 +96,7 @@
     text-decoration: none;
     border: none;
 }
+
 .jio-white-button {
     background-color: white;
     color: #5A6EAD;
@@ -69,11 +105,15 @@
     height: 50px;
     padding: 10px;
     font-size: 20px;
-    border:  grey 1px solid;
+    border: grey 1px solid;
 }
 
-.jio-business
-{
+.jio-business {
     height: 480px;
     background-image: url(./);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
 }
