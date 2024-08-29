@@ -1,11 +1,16 @@
-
 #carousel-images {
     width: 100%;
 }
-.carousel-item img
-{
+
+.carousel-item img {
     height: 790px;
 }
+
+nav {
+    background-color: #0F3CC9;
+    color: white;
+}
+
 /* .carousel-1 {
     background-image: url(./src/ranbir-airfiber-desktop-22-04-2024.webp);
     height: 790px;
@@ -13,16 +18,107 @@
     width: 100%;
     height: 790px;
 } */
+.carousel-caption.carousel-content {
+    left: 687px;
+    bottom: 30%;
+    right: auto;
+    text-align: left;
+    padding-left: 20px;
+    font-family: "san-serif";
+    /* Adjust padding as needed */
+}
+
+.carousel-heading {
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -1.2px;
+    line-height: 1;
+}
+
+.carousel-paragraph {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    letter-spacing: -.09px;
+    line-height: 1.3333;
+}
+
+.jio-black-heading {
+    color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    letter-spacing: -1.2px;
+    line-height: 1;
+    padding-top: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.my-jio {
+    display: flex;
+    width: 100%;
+    background-image: url(./src/myjio-23-04-24-mob.webp);
+    background-repeat: no-repeat;
+    flex-direction: row;
+}
+
+.video-player-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+}
+
+.video-player {
+    width: 980px;
+    border-radius: 24px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.about-jio {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
 .guidance {
     background-color: #0F3CC9;
     height: 337px;
-    align-items: right;
 }
 
 .guidance h1 {
     color: white;
-    font-family: Arial;
-    font-size: 80px;
+    font-family: Helvetica;
+    font-size: 70px;
+    font-weight: bold;
+    padding-left: 40%;
+}
+
+.guidance p {
+    color: #CAD4F3;
+    font-family: Helvetica;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 43%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    gap: 4em;
+    padding-left: 330px;
+    /* padding-right: 30%; */
 }
 
 .true-5g {
@@ -30,7 +126,31 @@
     width: 580px;
     background-image: url(./src/true-5g-desktop.webp);
     background-repeat: no-repeat;
-    float: left;
+    border-radius: 30px;
+}
+
+.about-jio-content {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+.about-jio-content h3 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+    letter-spacing: -.96px;
+    line-height: 1;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.air-fiber {
+    height: 580px;
+    width: 580px;
+    background-image: url(./src/airfiber-desktop.webp);
+    background-repeat: no-repeat;
+    border-radius: 30px;
 }
 
 .true-5g h1 {
@@ -39,13 +159,7 @@
     font-size: 50px;
 }
 
-.air-fiber {
-    height: 580px;
-    width: 580px;
-    background-image: url(./src/airfiber-desktop.webp);
-    background-repeat: no-repeat;
-    float: left;
-}
+
 
 .air-fiber h1 {
     color: white;
@@ -59,7 +173,7 @@
 
 .jio-market {
     height: 480px;
-    width:380px;
+    width: 380px;
     background-image: url(./src/jiomart-l.webp);
     background-repeat: no-repeat;
     float: left;
